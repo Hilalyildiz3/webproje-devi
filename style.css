@@ -1,0 +1,118 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {                       /*alt kısmı ayarlıyor*/
+    margin: 0;
+    background-color: darkgreen;
+    /*genel yazı rengi*/
+    color: slategray;
+    color: black;
+}
+
+ul { 
+    padding: 15px 17px;
+    border: none;
+    border-radius: 7%;
+    cursor: pointer;
+    font-weight: 200;
+    
+}
+
+a { 
+    text-decoration: none;
+}
+
+img {
+    width: 700px;;
+}
+
+p {
+    line-height: 1.5;
+    text-align: justify;
+
+}
+
+header {
+    background-color:darkgreen;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 30px;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+
+}
+
+header p {
+    margin-bottom: 20px;
+}
+
+header button {
+    background-color:blanchedalmond;
+    color: black;
+
+}
+
+/* menü bağlantıları */
+/* nav */
+
+ nav ul { 
+    list-style: none;
+    display: flex;
+    gap: 250px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    
+}
+
+nav ul li {
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    padding: 20px;
+}
+
+
+/* içerik alanı */
+main {
+    display: flex;
+    max-width: 1500px;
+    gap: 40px;
+    padding: 90px;
+    background-color: blanchedalmond;
+    border-top:
+
+
+}
+
+.card img {         /*resim kenarlarını yumuşatma*/
+    border-radius: 50px
+}
+
+
+main button {                /*yan bölüm*/
+    background-color:azure;
+    color: black;
+}
+
+main section {    /*sayfanın orta kısmında ki boşluğu ayarlar*/
+    flex: 1;
+
+}
+
+main div {
+    flex: 2;
+}
